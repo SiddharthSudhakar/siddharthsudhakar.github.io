@@ -1,0 +1,186 @@
+{
+  "$jason": {
+    "head": {
+      "title": "LifeLine",
+      "offline": "true",
+      "styles": {
+        "bold": {
+          "font": "HelveticaNeue-CondensedBold",
+          "size": "15"
+        },
+        "padded": {
+          "padding": "10"
+        },
+        "normal": {
+          "font": "HelveticaNeue",
+          "size": "12"
+        }
+      },
+      "actions": {
+        "$foreground": {
+          "type": "$reload"
+        }
+      }
+    },
+    "body": {
+      "header": {
+        "title": "LifeLine",
+        "style": {
+          "background": "#b71c1c",
+          "color": "#ffffff",
+          "font": "AvenirNext-Bold",
+          "size": "14"
+        },
+        "menu": {
+          "text": "View JSON",
+          "href": {
+            "url": "https://github.com/Jasonette/Jasonpedia/blob/gh-pages/demo.json",
+            "view": "web"
+          }
+        }
+      },
+      "sections": [
+        {
+          "items": [
+            {
+              "type": "vertical",
+              "style": {
+                "background": "rgba(14,122,254,0.1)",
+                "padding": "20"
+              },
+              "href": {
+                "url": "mailto:1.siddharth.sudhakar@gmail.com?subject=LifeLineApp! Count Me In&body=Hi there, My name is ",
+                "view": "app"
+              },
+              "components": [
+                {
+                  "type": "label",
+                  "text": "Click here to join our mission to help save lives ....",
+                  "class": "bold",
+                  "style": {
+                    "color": "rgb(14,122,254)"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "header": {
+            "type": "vertical",
+            "style": {
+              "background": "#ebebeb"
+            },
+            "components": [
+              {
+                "type": "label",
+                "class": "bold",
+                "text": "Hey {{$params.user_name}}"
+              },
+              {
+                "type": "label",
+                "class": "normal",
+                "text": "Great to see you again! Check out if any patients nearby need your assistance."
+              }
+            ]
+          },
+          "items": [
+            {
+              "type": "label",
+              "text": "Core",
+              "class": "bold padded",
+              "href": {
+                "url": "https://jasonette.github.io/Jasonpedia/core/index.json",
+                "options": {
+                  "name": "howto"
+                }
+              }
+            },
+            {
+              "type": "label",
+              "text": "View",
+              "class": "bold padded",
+              "href": {
+                "url": "https://jasonette.github.io/Jasonpedia/view/index.json"
+              }
+            },
+            {
+              "type": "label",
+              "text": "Action",
+              "class": "bold padded",
+              "href": {
+                "url": "https://jasonette.github.io/Jasonpedia/action/index.json"
+              }
+            },
+            {
+              "type": "label",
+              "text": "Template",
+              "class": "bold padded",
+              "href": {
+                "url": "https://jasonette.github.io/Jasonpedia/template/index.json"
+              }
+            },
+            {
+              "type": "label",
+              "text": "Web Container",
+              "class": "bold padded",
+              "href": {
+                "url": "https://jasonette.github.io/Jasonpedia/webcontainer/index.json"
+              }
+            }
+          ],
+          "footer": {
+            "tabs": {
+              "style": {
+                "background": "rgba(255,255,255,0.8)",
+                "color": "#009efa"
+              },
+              "items": [
+                {
+                  "image": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/images/home.png",
+                  "text": "Home",
+                  "style": {
+                    "height": "21"
+                  },
+                  "url": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/home.json"
+                },
+                {
+                  "image": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/images/notifications.png",
+                  "text": "Notifications",
+                  "style": {
+                    "height": "21"
+                  },
+                  "url": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/home.json"
+                },
+                {
+                  "image": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/images/moments.png",
+                  "text": "Moments",
+                  "style": {
+                    "height": "21"
+                  },
+                  "url": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/home.json"
+                },
+                {
+                  "image": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/images/messages.png",
+                  "text": "Messages",
+                  "style": {
+                    "height": "21"
+                  },
+                  "url": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/home.json"
+                },
+                {
+                  "image": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/images/me.png",
+                  "text": "Me",
+                  "style": {
+                    "height": "21"
+                  },
+                  "url": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/home.json"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}
