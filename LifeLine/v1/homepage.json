@@ -2,12 +2,12 @@
   "$jason": {
     "head": {
       "title": "{ ˃̵̑ᴥ˂̵̑}",
+      "offline": "true",
       "actions": {
         "$foreground": {
           "type": "$reload"
         }
-      },
-      "offline": "true"
+      }
     },
     "body": {
       "style": {
@@ -67,7 +67,7 @@
               "text": "Check out the DEMO APP",
               "href": {
                 "url": "https://jasonette.github.io/Jasonpedia/demo.json",
-                "fresh": "true"
+                "fresh": "false"
               }
             },
             {
@@ -83,6 +83,21 @@
               "href": {
                 "url": "https://www.linkedin.com/in/siddharthsudhakar/",
                 "view": "Web"
+              }
+            },
+            {
+              "type": "label",
+              "style": {
+                "align": "right",
+                "padding": "10",
+                "color": "#000000",
+                "font": "HelveticaNeue",
+                "size": "12"
+              },
+              "text": "Default Page",
+              "href": {
+                "url": "https://jasonette.github.io/Jasonpedia/demo.json",
+                "fresh": "true"
               }
             }
           ]
