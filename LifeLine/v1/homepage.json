@@ -1,7 +1,7 @@
 {
   "$jason": {
     "head": {
-      "title": "{ ˃̵̑ᴥ˂̵̑}",
+      "title": "{ ˃̵̑ᴥ˂̵̑}",  
       "offline": "true",
       "actions": {
         "$foreground": {
@@ -66,7 +66,7 @@
               },
               "text": "Check out the DEMO APP",
               "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/demo.json",
+                "url": "https://siddharthsudhakar.github.io/LifeLine/v1/page1.json",
                 "fresh": "false"
               }
             },
